@@ -1,0 +1,225 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-family: "Montserrat-Bold", sans-serif;
+  font-weight: bold;
+}
+
+/* Headings   */
+.big-heading{
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: #fff;
+}
+
+.section-heading{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Sections */
+
+.colored-section{
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section{
+  background-color: #fff;
+}
+/* Title section*/
+
+#title{
+  position: relative;
+  text-align: left;
+}
+
+.navbar {
+  padding:0 0 4.5rem;
+}
+
+
+.navbar-brand{
+  font-size: 2.4rem;
+  font-family: "Ubuntu";
+}
+
+.container-fluid{
+  padding: 3% 15% 7%;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+.nav-link {
+  font-size: 1.2rem;
+  font-family: 'Montserrat-Light', sans-serif;;
+}
+
+.phone{
+  width: 60%;
+  padding-top: 13%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+
+}
+
+
+.download-btn{
+  margin: 5% 3% 5% 0;
+}
+
+/* features section*/
+#features {
+  position: relative;
+  z-index: 1;
+  padding:  7% 15%;
+  color: #8f8f8f;
+}
+
+.feature-title{
+  font-size: 1.5rem;
+  color: #000;
+}
+
+.icon{
+  color: #ef8172;
+  margin-bottom: 1.3rem;
+}
+.icon:hover{
+  color:#ff4c68;
+}
+/* Testimonials */
+
+#testimonials{
+  
+  background-color: #ef8172;
+}
+
+.testimonial-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-image{
+  width:10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+/* press section */
+#press{
+  padding-bottom: 3%;
+  background-color: #ef8172;
+
+}
+
+.press-image{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.carousel-item{
+  padding: 7% 15%;
+}
+
+
+/* pricing */
+
+#pricing{
+  
+  padding:100px;
+
+}
+
+.price-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.card{
+  padding: 3%;
+}
+
+
+/* cta */
+
+.less-pad-bottom{
+  padding-bottom: 3%;
+}
+
+/* footer */
+
+#footer{
+  color: grey;
+}
+
+.space-it{
+  padding: 2% 1%;
+  color: #212529;
+}
+
+@media (max-width: 1028px){
+  .phone{
+    position: static;
+    transform: rotate(0deg);
+  }
+  #title{
+    text-align: center;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* to make sure that the cursor stays up */
